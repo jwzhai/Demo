@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyApplicationExample</string>
+    <string name="hello_world">Hello world!\nI\'m git test.</string>
+    <string name="action_settings">Settings</string>
+    <string name="addItemHint">Add a item!</string>
+    <string name="addItemContentDescription">Add a item to list.</string>
+    <string name="addItemNumberDescription">Number</string>
+    <string name="addItemNameDescription">Name</string>
+    <string name="btn_add_item">添加表项</string>
+
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView android:scaleType="centerCrop"
+        android:id="@+id/figure"
+        android:layout_width="80dp"
+        android:layout_height="64dp"
+        android:layout_alignBottom="@+id/numberEditText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/ic_bitmap" />
+
+    <EditText
+        android:id="@+id/nameEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/btnAddItem"
+        android:layout_toRightOf="@+id/figure"
+        android:contentDescription="@string/addItemNameDescription"
+        android:hint="@string/addItemNameDescription" />
+
+    <EditText
+        android:id="@+id/numberEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nameEditText"
+        android:layout_toLeftOf="@+id/btnAddItem"
+        android:layout_toRightOf="@+id/figure"
+        android:contentDescription="@string/addItemNumberDescription"
+        android:hint="@string/addItemNumberDescription" />
+
+    <Button
+        android:id="@+id/btnAddItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/numberEditText"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:gravity="left|center_vertical"
+        android:text="@string/btn_add_item" />
+</RelativeLayout>

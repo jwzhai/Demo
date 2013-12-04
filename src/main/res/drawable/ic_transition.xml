@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<transition xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/ic_device_access_bluetooth" android:left="-8dp"/>
+    <item android:drawable="@drawable/ic_device_access_bluetooth_searching" />
+</transition>
